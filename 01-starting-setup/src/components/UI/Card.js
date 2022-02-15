@@ -1,9 +1,9 @@
 import "../UI/Card.css";
 
-const Card = (props) => {
-  const classes = 'card ' + props.className;
+const Card = ({ className, children }) => {
+  const classes = 'card ' + className;
 
-  return <div className={classes}>{props.children}</div>
+  return <div className={classes}>{children}</div>
 }
 
 
