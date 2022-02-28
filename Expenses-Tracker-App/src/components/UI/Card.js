@@ -1,4 +1,4 @@
-import "../UI/Card.css";
+import "./Card.css";
 
 const Card = ({ className, children }) => {
   const classes = 'card ' + className;
